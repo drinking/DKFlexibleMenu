@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DKFlexibleMenu_Example', :exclusive => true do
+  pod "DKFlexibleMenu", :path => "../"
+end
+
+target 'DKFlexibleMenu_Tests', :exclusive => true do
+  pod "DKFlexibleMenu", :path => "../"
+
+  
+end
