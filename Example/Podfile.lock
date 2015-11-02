@@ -1,0 +1,14 @@
+PODS:
+  - DKFlexibleMenu (0.1.0)
+
+DEPENDENCIES:
+  - DKFlexibleMenu (from `../`)
+
+EXTERNAL SOURCES:
+  DKFlexibleMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DKFlexibleMenu: f48f45de09517066282c2b38830bbce56ae04d4e
+
+COCOAPODS: 0.39.0

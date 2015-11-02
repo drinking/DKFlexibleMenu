@@ -1,30 +1,26 @@
 #
 # Be sure to run `pod lib lint DKFlexibleMenu.podspec' to ensure this is a
-# valid spec before submitting.
+# valid spec and remove all comments before submitting the spec.
 #
-# Any lines starting with a # are optional, but their use is encouraged
+# Any lines starting with a # are optional, but encouraged
+#
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
 Pod::Spec.new do |s|
   s.name             = "DKFlexibleMenu"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DKFlexibleMenu."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "A hexagon popup menu showing around touch point."
   s.description      = <<-DESC
+                          A flexible menu which displays several hexagon menu items around the touch point.
+                          It will calculate whether each menu item is visible and show them at the proper place.
                        DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DKFlexibleMenu"
+  s.homepage         = "https://github.com/drinking/DKFlexibleMenu"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "drinking" => "pan49@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DKFlexibleMenu.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/drinking/DKFlexibleMenu.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/crazy_drinking'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

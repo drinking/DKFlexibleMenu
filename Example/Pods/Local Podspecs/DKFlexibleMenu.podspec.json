@@ -1,0 +1,25 @@
+{
+  "name": "DKFlexibleMenu",
+  "version": "0.1.0",
+  "summary": "A short description of DKFlexibleMenu.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DKFlexibleMenu",
+  "license": "MIT",
+  "authors": {
+    "drinking": "pan49@126.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DKFlexibleMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DKFlexibleMenu": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
