@@ -1,5 +1,6 @@
 # DKFlexibleMenu
 
+Inspired by a [Menu Concept](https://dribbble.com/shots/1193991-Menu-Concept-iOS) on dribble.
 
 ##Screenshot
 ![screenshot1](https://raw.githubusercontent.com/drinking/DKFlexibleMenu/master/screenshot/preview.gif)
