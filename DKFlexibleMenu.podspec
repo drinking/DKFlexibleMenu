@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DKFlexibleMenu"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A hexagon popup menu showing around touch point."
   s.description      = <<-DESC
                           A flexible menu which displays several hexagon menu items around the touch point.
