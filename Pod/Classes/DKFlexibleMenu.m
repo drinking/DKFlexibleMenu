@@ -148,14 +148,14 @@
         // start from right cell
         CGPoint startPoint = CGPointZero;
         CGPoint startOffset = [directionOffsets[4] CGPointValue];
-        for (int j = level; j > 0; --j) {
+        for (NSInteger j = level; j > 0; --j) {
             startPoint.x += startOffset.x;
             startPoint.y += startOffset.y;
         }
 
-        for (int i = 1; i < 7; ++i) {
+        for (NSInteger i = 1; i < 7; ++i) {
             CGPoint offset = [directionOffsets[i - 1] CGPointValue];
-            for (int j = 0; j < level; ++j) {
+            for (NSInteger j = 0; j < level; ++j) {
                 startPoint.x += offset.x;
                 startPoint.y += offset.y;
 
